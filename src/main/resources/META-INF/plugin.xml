@@ -1,0 +1,35 @@
+<idea-plugin>
+    <id>com.swiftcmd.runner</id>
+    <name>SwiftCmd</name>
+    <vendor email="dev@swiftcmd.local" url="https://swiftcmd.local">SwiftCmd</vendor>
+
+    <description><![CDATA[
+    Run a user-configured shell command in the background with a single keyboard shortcut.
+    <ul>
+        <li>Command string is configurable in <b>Settings | Tools | SwiftCmd</b></li>
+        <li>Windows uses PowerShell, macOS/Linux use bash (cross-platform)</li>
+        <li>Runs silently; shows a notification with the error output only when the command fails</li>
+    </ul>
+    ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <applicationService serviceImplementation="com.swiftcmd.SwiftCmdSettings"/>
+        <applicationConfigurable parentId="tools"
+                                 instance="com.swiftcmd.SwiftCmdSettingsPage"
+                                 id="swiftcmd.settings"
+                                 displayName="SwiftCmd"/>
+        <notificationGroup id="SwiftCmd.Notification" displayType="BALLOON"/>
+    </extensions>
+
+    <actions>
+        <action id="SwiftCmd.Run"
+                class="com.swiftcmd.SwiftCmdAction"
+                text="Run SwiftCmd"
+                description="Run the configured quick command">
+            <keyboard-shortcut keymap="$default" first-keystroke="ctrl alt shift R"/>
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+        </action>
+    </actions>
+</idea-plugin>

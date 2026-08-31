@@ -1,0 +1,11 @@
+FsRecords.DIRECTORY_CHILDREN
+template_language
+
+sql_dialect
+GenericSQL
+css_dialect_persistence
+CLASSIC
+language_level_persistence
+js.minified.store
+AUTO_DETECTION_CACHE_ATTRIBUTE
+javascript.file.is.probably.test

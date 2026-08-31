@@ -1,0 +1,37 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="$SelectAll">
+      <i c="2" l="1788182478744" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="1" l="1788182611177" />
+    </e>
+    <e n="EditorCopy">
+      <i c="1" l="1788182544109" />
+    </e>
+    <e n="EditorPaste">
+      <i c="3" l="1788182479126" />
+    </e>
+    <e n="WelcomeScreen.OpenProject">
+      <i c="1" l="1788181964031" />
+    </e>
+    <e n="WelcomeScreen.Settings">
+      <i c="1" l="1788181892166" />
+    </e>
+    <e n="com.intellij.notification.NotificationAction$Simple">
+      <i c="1" l="1788181984692" />
+    </e>
+    <e n="com.intellij.notification.impl.ui.NotificationComponent$MyActionGroup">
+      <i c="1" l="1788182534008" />
+    </e>
+    <e n="com.intellij.openapi.ui.impl.DialogWrapperPeerImpl$AnCancelAction">
+      <i c="2" l="1788182089957" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.welcomeScreen.WelcomeScreenComponentFactory$4">
+      <i c="1" l="1788181890350" />
+    </e>
+    <e n="com.intellij.toolWindow.ShowMoreToolWindowsAction">
+      <i c="3" l="1788182139549" />
+    </e>
+  </component>
+</application>
