@@ -33,4 +33,19 @@ kotlin {
 
 intellijPlatform {
     instrumentCode = true
+    pluginConfiguration {
+        ideaVersion {
+            // 231 = IntelliJ IDEA 2023.1. The platform Gradle plugin derives
+            // since-build from the target platform (261 = 2026.1) when not set
+            // explicitly, which is why 2023.1 rejected the plugin with
+            // "version not supported" at install time.
+            sinceBuild = "231"
+            untilBuild = "263.*"
+        }
+    }
+    pluginVerification {
+        ides {
+            create(IntelliJPlatformType.IntellijIdea, "2023.1.5")
+        }
+    }
 }

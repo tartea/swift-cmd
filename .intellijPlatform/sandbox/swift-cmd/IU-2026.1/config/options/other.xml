@@ -1,0 +1,48 @@
+<application>
+  <component name="LangManager">
+    <option name="languageName" value="JAVA" />
+  </component>
+  <component name="NotRoamableUiSettings">
+    <option name="fontSize" value="13.0" />
+    <option name="presentationModeIdeScale" value="1.75" />
+  </component>
+  <component name="PropertyService"><![CDATA[{
+  "keyToString": {
+    "FileTemplates.SelectedTemplate": "AnnotationType",
+    "JSHintOptionsTreeView.TREE_SCROLL_BAR_HORIZONTAL": "22",
+    "JSHintOptionsTreeView.TREE_SCROLL_BAR_VERTICAL": "0",
+    "JSHintOptionsTreeView.TREE_SELECTED_NODE_ID": "1",
+    "LAST_EXTRACTOR_SCRIPTS_CLEANUP_VERSION/data/aggregators": "IU-261.22158.277",
+    "RunOnceActivity.AIPromoWindowAdvisorPreheat": "true",
+    "RunOnceActivity.TerminalFontSettingsService.fixStoredNonMonospacedFonts": "true",
+    "RunOnceActivity.TerminalOptionsProvider.TerminalEngineMigration.2026.1": "true",
+    "RunOnceActivity.gateway.wsl.native.mode.default.set": "true",
+    "RunOnceActivity.set.default.devcontainer.project.open.action": "true",
+    "defaultJdkConfigured": "true",
+    "experimental.ui.on.first.startup": "true",
+    "experimental.ui.used.version": "261.22158.277",
+    "fileTypeChangedCounter": "2",
+    "fontSizeToResetConsole": "13.0",
+    "fontSizeToResetEditor": "13.0",
+    "migrated.non.roamable.values.from.general.settings": "true",
+    "previousColorScheme": "_@user_Default",
+    "registry.to.advanced.settings.migration.build": "IU-261.22158.277",
+    "trial.state.last.availability.check": "1788266348079",
+    "trial.state.last.availability.state": "false",
+    "trial.state.last.state": "FREE"
+  },
+  "keyToStringList": {
+    "fileTypeDetectors": [
+      "com.intellij.ide.scratch.ScratchFileServiceImpl$Detector",
+      "com.intellij.database.vfs.DbStorageFileType$Detector",
+      "com.intellij.docker.dockerFile.DockerFileTypeDetector",
+      "org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector"
+    ]
+  }
+}]]></component>
+  <component name="ReworkedTerminalUsage"><![CDATA[{
+  "firstIdeSessionMoment": {
+    "type": "org.jetbrains.plugins.terminal.TerminalFirstIdeSessionMoment.BeforeTrackingStarted"
+  }
+}]]></component>
+</application>
